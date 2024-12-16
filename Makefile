@@ -11,3 +11,5 @@ package-install:
 	uv tool uninstall hexlet-code
 	uv tool install dist/*.whl
 
+make lint:
+    uv run ruff check brain_games

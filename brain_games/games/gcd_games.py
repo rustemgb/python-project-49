@@ -1,6 +1,6 @@
 from random import randint
 from brain_games.engine import run_game
-from brain_games.constants import GCD_INSRUCTION
+from brain_games.constants import GCD_INSTRUCTION
 
 def calc_correct_answer(num_1, num_2):
     if num_1 > num_2:
@@ -27,4 +27,4 @@ def get_numbers_and_answer():
 
 
 def run_gcd_games():
-    run_game(get_numbers_and_answer, GCD_INSRUCTION)
+    run_game(get_numbers_and_answer, GCD_INSTRUCTION)

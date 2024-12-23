@@ -10,17 +10,17 @@ def calc_answer(num_1, num_2, arithmetic):
     elif arithmetic == "*":
         return num_1 * num_2
 
-def get_arithmetic_and_answer():
+def get_expression_and_answer():
 
     num_1 = randint(0, 30)
     num_2 = randint(0, 30)
 
     arithmetic = choice(CALC_ARITHMETIC)
-    question = f'{num_1} {arithmetic} {num_2}'
+    expression = f'{num_1} {arithmetic} {num_2}'
     correct_answer = calc_answer(num_1, num_2, arithmetic)
 
-    return question, correct_answer
+    return expression, correct_answer
 
 def run_calc_game():
-    run_game(get_arithmetic_and_answer, CALC_INSTRUCTION)
+    run_game(get_expression_and_answer, CALC_INSTRUCTION)
 

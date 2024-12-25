@@ -6,10 +6,7 @@ def calc_correct_answer(num_1, num_2):
     if num_1 > num_2:
         num_1, num_2 = num_2, num_1
     
-    if num_1 == num_2:
-        return num_1
-    divider = num_2 // 2
-
+    divider = num_1
     while divider > 0:
         if num_1 % divider == 0 and num_2 % divider == 0:
             return divider

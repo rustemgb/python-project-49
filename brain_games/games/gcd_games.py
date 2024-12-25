@@ -5,7 +5,9 @@ from brain_games.constants import GCD_INSTRUCTION
 def calc_correct_answer(num_1, num_2):
     if num_1 > num_2:
         num_1, num_2 = num_2, num_1
-
+    
+    if num_1 == num_2:
+        return num_1
     divider = num_2 // 2
 
     while divider > 0:

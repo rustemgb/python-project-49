@@ -5,8 +5,10 @@ from brain_games.constants import PRIME_INSTRUCTION
 def isprime(num):
 
     divider = num // 2 + 1
-    
-    while divider > 1:
+    if divider < 3:
+        return True
+        
+    while divider > 2:
         if num % divider != 0:
             divider -= 1
         else:

@@ -17,8 +17,8 @@ def calc_correct_answer(num_1, num_2):
 
 def get_numbers_and_answer():
 
-    num_1 = randint(0, 100)
-    num_2 = randint(0, 100)
+    num_1 = randint(1, 100)
+    num_2 = randint(1, 100)
 
     numbers = f'{num_1} {num_2}'
     correct_answer = calc_correct_answer(num_1, num_2)

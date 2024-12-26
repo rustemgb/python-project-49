@@ -1,6 +1,8 @@
-from random import randint, choice
-from brain_games.constants import CALC_INSTRUCTION, CALC_ARITHMETIC
+from random import choice, randint
+
+from brain_games.constants import CALC_ARITHMETIC, CALC_INSTRUCTION
 from brain_games.engine import run_game
+
 
 def calc_answer(num_1, num_2, arithmetic):
     if arithmetic == "+":
@@ -9,6 +11,7 @@ def calc_answer(num_1, num_2, arithmetic):
         return num_1 - num_2
     elif arithmetic == "*":
         return num_1 * num_2
+
 
 def get_expression_and_answer():
 
@@ -20,6 +23,7 @@ def get_expression_and_answer():
     correct_answer = calc_answer(num_1, num_2, arithmetic)
 
     return expression, correct_answer
+
 
 def run_calc_game():
     run_game(get_expression_and_answer, CALC_INSTRUCTION)

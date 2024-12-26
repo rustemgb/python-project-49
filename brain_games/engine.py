@@ -19,5 +19,3 @@ def run_game(question_and_answer, insructiom):
             return
     
     print(f'Congratulations, {name}!')
-
-        

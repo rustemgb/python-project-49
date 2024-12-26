@@ -1,6 +1,8 @@
 from random import randint
-from brain_games.engine import run_game
+
 from brain_games.constants import GCD_INSTRUCTION
+from brain_games.engine import run_game
+
 
 def calc_correct_answer(num_1, num_2):
     if num_1 > num_2:

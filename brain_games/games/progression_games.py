@@ -1,6 +1,7 @@
 from random import randint
-from brain_games.engine import run_game
+
 from brain_games.constants import PROGRESSION_INSTRUCTION
+from brain_games.engine import run_game
 
 
 def get_progression_nums_and_answer():

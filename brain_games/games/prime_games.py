@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.constants import PRIME_INSTRUCTION
+from brain_games.constants import PRIME_INSTR
 from brain_games.engine import run_game
 
 
@@ -27,4 +27,4 @@ def get_prime_nums_and_answer():
 
 
 def run_prime_games():
-    run_game(get_prime_nums_and_answer, PRIME_INSTRUCTION)
+    run_game(get_prime_nums_and_answer, PRIME_INSTR)

@@ -19,7 +19,7 @@ def isprime(num):
 
 def get_prime_nums_and_answer():
 
-    random_num = randint(3, 8)
+    random_num = randint(1, 100)
     question = str(random_num)
     correct_answer = "yes" if isprime(random_num) else "no"
     

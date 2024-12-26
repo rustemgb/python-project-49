@@ -1,20 +1,18 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/rustemgb/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rustemgb/python-project-49/actions)
-<a href="https://codeclimate.com/github/rustemgb/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2537bcf8e10be7355a6a/maintainability" /></a>
-
 Brain Games is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to play it again. 
-
 Games:
-
-- Calculator. Arithmetic expressions for calculating.
-- Progression. Finding missing numbers in a sequence of numbers.
-- Determining an even number.
-- Determining the greatest common divisor.
-- Determining a prime number.
+- Calculator. Arithmetic expressions for calculating. (launch command "brain-calc")
+- Progression. Finding missing numbers in a sequence of numbers. (launch command "brain-progression")
+- Determining an even number. (launch command "brain-even")
+- Determining the greatest common divisor. (launch command "brain-gcd")
+- Determining a prime number. (launch command "brain-prime")
 
 SETUP:
 - uv build
 - make package-install
+
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/rustemgb/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rustemgb/python-project-49/actions)
+<a href="https://codeclimate.com/github/rustemgb/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2537bcf8e10be7355a6a/maintainability" /></a>
 
 https://asciinema.org/a/rPM2ilXJdkm0PCOjxA4hDbJaq brain-even
 

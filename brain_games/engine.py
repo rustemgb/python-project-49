@@ -14,7 +14,8 @@ def run_game(question_and_answer, insructiom):
             print('Correct!')
 
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {name}!")
+            print(f"{user_answer} is wrong answer ;(. "
+            f"Correct answer was {correct_answer}.\nLet's try again, {name}!")
         
             return
     
